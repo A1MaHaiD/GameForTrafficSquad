@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".presentation.ui.fragment.ChooseLevelFragment">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_margin="@dimen/spacing_normal_16"
+        android:textSize="@dimen/font_normal_24"
+        android:textStyle="bold"
+        android:text="@string/choose_level"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_level_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_normal_16"
+        android:layout_marginEnd="@dimen/spacing_normal_16"
+        android:text="@string/test"/>
+
+    <Button
+        android:id="@+id/btn_level_easy"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_normal_16"
+        android:layout_marginEnd="@dimen/spacing_normal_16"
+        android:text="@string/easy"/>
+
+    <Button
+        android:id="@+id/btn_level_normal"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_normal_16"
+        android:layout_marginEnd="@dimen/spacing_normal_16"
+        android:text="@string/normal"/>
+
+    <Button
+        android:id="@+id/btn_level_hard"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_normal_16"
+        android:layout_marginEnd="@dimen/spacing_normal_16"
+        android:text="@string/hard"/>
+
+</LinearLayout>

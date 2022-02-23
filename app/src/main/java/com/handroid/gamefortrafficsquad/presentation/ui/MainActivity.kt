@@ -1,7 +1,8 @@
-package com.handroid.gamefortrafficsquad
+package com.handroid.gamefortrafficsquad.presentation.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.handroid.gamefortrafficsquad.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
